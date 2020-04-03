@@ -1,7 +1,7 @@
 import boto3
 from boto3.dynamodb.conditions import Key
 
-dynamodb = boto3.resource('dynamodb', region_name='us-east-1', aws_access_key_id='AKIA3MACAOOQ3GJTS56F', aws_secret_access_key='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')
+dynamodb = boto3.resource('dynamodb', region_name='us-east-1', aws_access_key_id='XXXXXXXXXXXXXXXXXX', aws_secret_access_key='XXXXXXXXXXXXXXXXXX')
 table = dynamodb.Table('Flights')
 
 ###########################################################################
